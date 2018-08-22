@@ -2,20 +2,7 @@ version: '2'
 messages:
   $i18n: locales.yml
 template:
-  name:
-    $ref: "#/messages/template.name"
-  description:
-    $ref: "#/messages/template.description"
-  header: '![](toolchain.svg?localize)'
-  icon: icon.svg
-  required:
-    - ui-build
-    - catalog-api-build
-    - orders-api-build
-    - catalog-api-repo
-    - orders-api-repo
-    - ui-repo
-  info:
+  name::
     git url: >-
       [https://github.com/open-toolchain/toolchain-demo](https://github.com/open-toolchain/toolchain-demo)
     git branch: '[master](https://github.com/open-toolchain/toolchain-demo/tree/master)'
