@@ -60,18 +60,6 @@ toolchain:
           PROD_REGION_ID: '{{form.pipeline.parameters.prod-region}}'
         execute: true
   orders-api-repo:
-    service_id: githubpublic
-    parameters:
-      repo_name: '{{form.githubpublic.parameters.orders-api-repo_name}}'
-      repo_url: '{{form.githubpublic.parameters.orders-api-repo_url}}'
-      type: clone
-      has_issues: false
-      enable_traceability: true
-  messaging:
-    service_id: slack
-    $ref: slack.yml
-  dra:
-    service_id: draservicebroker
     $ref: dra.yml
   test:
     service_id: saucelabs
