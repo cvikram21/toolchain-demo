@@ -95,8 +95,7 @@ services:
   catalog-api-build:
     service_id: pipeline
     parameters:
-      services:
-        - catalog-api-repo
+      servcatalog-api-repo
         - test
       name: 'catalog-api-{{toolchain.name}}'
       configuration:
