@@ -17,8 +17,8 @@ template:
     - ui-repo
   info:
     git url: >-
-      [https://github.com/open-toolchain/toolchain-demo](https://github.com/open-toolchain/toolchain-demo)
-    git branch: '[master](https://github.com/open-toolchain/toolchain-demo/tree/master)'
+      [https://github.com/cvikram21/toolchain-demo](https://github.com/cvikram21/toolchain-demo)
+    git branch: '[master](https://github.com/cvikram21/toolchain-demo/tree/master)'
 toolchain:
   name: 'toolchain-demo-{{timestamp}}'
   template:
